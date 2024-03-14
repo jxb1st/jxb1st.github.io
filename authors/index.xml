@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Authors - Author - Hi! I am Jianxu</title>
+        <link>https://jxb1st.github.io/authors/</link>
+        <description>Authors - Author - Hi! I am Jianxu</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jxb1st@gmail.com (Louis)</managingEditor>
+            <webMaster>jxb1st@gmail.com (Louis)</webMaster><atom:link href="https://jxb1st.github.io/authors/" rel="self" type="application/rss+xml" /></channel>
+</rss>
