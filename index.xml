@@ -3,15 +3,15 @@
         <title>Hi! I am Jianxu</title>
         <link>https://jxb1st.github.io/</link>
         <description>Hi! I am Jianxu</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>jxb1st@gmail.com (Louis)</managingEditor>
-            <webMaster>jxb1st@gmail.com (Louis)</webMaster><lastBuildDate>Wed, 13 Mar 2024 22:05:38 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Mar 2024 22:05:38 &#43;0800</lastBuildDate>
             <atom:link href="https://jxb1st.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>First_post</title>
     <link>https://jxb1st.github.io/first_post/</link>
     <pubDate>Wed, 13 Mar 2024 22:05:38 &#43;0800</pubDate><author>
-        <name>Louis</name>
+        <name>Author</name>
     </author><guid>https://jxb1st.github.io/first_post/</guid>
-    <description><![CDATA[This is a test post.]]></description>
+    <description><![CDATA[<h3 id="this-is-a-test-post" class="headerLink">
+    <a href="#this-is-a-test-post" class="header-mark"></a>This is a test post.</h3>]]></description>
 </item></channel>
 </rss>

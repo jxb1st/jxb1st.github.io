@@ -2,9 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://jxb1st.github.io/first_post/</loc><lastmod>2024-03-13T22:05:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://jxb1st.github.io/</loc><lastmod>2024-03-13T22:05:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://jxb1st.github.io/posts/</loc><lastmod>2024-03-13T22:05:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://jxb1st.github.io/first_post/</loc><lastmod>2024-03-13T22:05:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://jxb1st.github.io/</loc><lastmod>2024-03-13T22:05:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://jxb1st.github.io/posts/</loc><lastmod>2024-03-13T22:05:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://jxb1st.github.io/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://jxb1st.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://jxb1st.github.io/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
