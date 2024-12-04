@@ -18,7 +18,7 @@
 {{< showcase title="City Walk? City Work!" summary="Taken in Shanghai, a city that never sleep. (2023.04.09)" image="/shanghai/01.jpg" link="/shanghai" >}}
 
 
-{{< showcase title="PKU" summary="Taken in Peking University, where I spent a wonderful summer school. (2023.07.26)" image="/pku/01.jpg" link="/Pku" >}}
+{{< showcase title="PKU" summary="Taken in Peking University, where I spent a wonderful summer school. (2023.07.26)" image="/pku/01.jpg" link="/pku" >}}
 
 {{< showcase title="Stolen the 19th summer" summary="Taken on my 20th birthday, as I chased the sunrise alone in Beijing. (2023.08.25)" image="/20th_birthday/13.jpg" link="/20th_birthday" >}}
 
