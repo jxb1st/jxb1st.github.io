@@ -1,7 +1,360 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Hi! I am Jianxu</title>
-        <link>https://jxb1st.github.io/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>All Posts | Hi! I am Jianxu</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 13 Mar 2024 22:05:38 &#43;0800</lastBuildDate><atom:link href="https://jxb1st.github.io/posts/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 04 Dec 2024 20:04:26 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Resume</title>
+    <link>http://localhost:1313/resume/</link>
+    <pubDate>Wed, 04 Dec 2024 20:04:26 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/resume/</guid>
+    <description><![CDATA[<br>
+<p><strong>Currently I am excited to apply for the graduate program and research assistant position in ECE, CS, DS, AI or any related fields in 2025FALL, I would be glad if you could share some information with me, or just have a casual talk. Please contact me on <a href="mailto:jxb1st@gmail.com" rel="">jxb1st@gmail.com</a>, thanks!</strong></p>
+<br>
+<p>Here is my <strong><a href="https://drive.google.com/file/d/1sNDQqXD9bvVMUCilXEEnNFNz-XLKPZsi/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a></strong> (updated on December 4, 2024), Please feel free to check it out!
+<br></p>]]></description>
+</item><item>
+    <title>Projects</title>
+    <link>http://localhost:1313/projects/</link>
+    <pubDate>Tue, 03 Dec 2024 23:54:23 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/projects/</guid>
+    <description><![CDATA[<br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Zoom Effect</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+<pre><code>.image-container {
+  text-align: center; /* Center the content */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Ensure the container takes up full width */
+  background-color: #f0f0f0; /* Light background color */
+  display: flex; /* Use flex to arrange items horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image {
+  width: 60%; /* Adjust size to fit container */
+  max-width: 600px; /* Maximum width */
+  max-height: 100%; /* Prevent height from overflowing */
+  object-fit: contain; /* Ensure image scales proportionally */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  cursor: pointer; /* Change cursor to indicate interaction */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block; /* Make image a block element to help center it */
+  margin: 0 auto; /* Ensure image is centered within its container */
+}
+
+.image.zoomed {
+  transform: scale(2); /* Zoom in the image */
+  z-index: 10; /* Ensure the zoomed image appears on top */
+  cursor: zoom-out; /* Change cursor when zoomed in */
+}
+</code></pre>
+<p></style></p>]]></description>
+</item><item>
+    <title>News!</title>
+    <link>http://localhost:1313/news/</link>
+    <pubDate>Tue, 03 Dec 2024 22:57:51 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/news/</guid>
+    <description><![CDATA[<table>
+  <thead>
+      <tr>
+          <th>Date</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>24-11-12</td>
+          <td>Our poster about &ldquo;Eroded Jigsaw Puzzle Solving Using Siamese Neural Network and GAN&rdquo; finished! You may find <a href="https://drive.google.com/file/d/1Nr2QTImf2IcZPTJvUhrtCa1nU9iLDLdS/view" target="_blank" rel="noopener noreferrer">here</a>!</td>
+      </tr>
+      <tr>
+          <td>24-09-22</td>
+          <td>Our paper about &ldquo;QRL for Electric Vehicle Charging&rdquo; finished! Hopefully it could be published soon.</td>
+      </tr>
+      <tr>
+          <td>24-07-12</td>
+          <td>I&rsquo;m very excited to work with <a href="https://research.nottingham.edu.cn/en/persons/jianfeng-ren" target="_blank" rel="noopener noreferrer">prof.Jianfeng</a> to do the research about &ldquo;Abstract Visual Reasoning&rdquo; in <a href="https://research.nottingham.edu.cn/en/organisations/artificial-intelligence-and-optimisation-research-group/persons/" target="_blank" rel="noopener noreferrer">Artificial Intelligence and Optimization Group</a>!</td>
+      </tr>
+      <tr>
+          <td>24-06-01</td>
+          <td>I&rsquo;m extremely fortunate to be a machine learning intern in <a href="https://group.weimob.com/en/" target="_blank" rel="noopener noreferrer">Weimob Inc.</a>. I mainly focus on AIGC Internal Website Development in the team!</td>
+      </tr>
+      <tr>
+          <td>24-04-09</td>
+          <td>I&rsquo;m happy to work with <a href="https://research.nottingham.edu.cn/en/persons/tianxiang-cui" target="_blank" rel="noopener noreferrer">prof.Tianxiang</a> to do the research project about QRL for Electric Vehicle Charging!</td>
+      </tr>
+      <tr>
+          <td>23-10-11</td>
+          <td>One manuscript about &ldquo;Retinal Vessel Segmentation Using U-Net Deep Learning Model&rdquo; has been published online, you may find <a href="https://drive.google.com/file/d/1ljHjuUYeJ7PuPm_VWQZV9-yEk4EtGSv7/view" target="_blank" rel="noopener noreferrer">here</a>!</td>
+      </tr>
+      <tr>
+          <td>23-09-01</td>
+          <td>I&rsquo;m honor to work with UNNC to build virtual human for school recruitment! It&rsquo;s a team project!</td>
+      </tr>
+      <tr>
+          <td>23-07-04</td>
+          <td>I&rsquo;m very excited to join <a href="http://www.binn.cas.cn/" target="_blank" rel="noopener noreferrer">BINN</a> as an undergrad research assistant!</td>
+      </tr>
+  </tbody>
+</table>]]></description>
+</item><item>
+    <title>21th_birthday</title>
+    <link>http://localhost:1313/21th_birthday/</link>
+    <pubDate>Tue, 03 Dec 2024 20:57:11 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/21th_birthday/</guid>
+    <description><![CDATA[<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/01.jpg" src_s="/21th_birthday/01.jpg" src_l="/21th_birthday/01.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/02.jpg" src_s="/21th_birthday/02.jpg" src_l="/21th_birthday/02.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/10.jpg" src_s="/21th_birthday/10.jpg" src_l="/21th_birthday/10.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/07.jpg" src_s="/21th_birthday/07.jpg" src_l="/21th_birthday/07.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/09.jpg" src_s="/21th_birthday/09.jpg" src_l="/21th_birthday/09.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/08.jpg" src_s="/21th_birthday/08.jpg" src_l="/21th_birthday/08.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/05.jpg" src_s="/21th_birthday/05.jpg" src_l="/21th_birthday/05.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/06.jpg" src_s="/21th_birthday/06.jpg" src_l="/21th_birthday/06.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/03.jpg" src_s="/21th_birthday/03.jpg" src_l="/21th_birthday/03.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/04.jpg" src_s="/21th_birthday/04.jpg" src_l="/21th_birthday/04.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/11.jpg" src_s="/21th_birthday/11.jpg" src_l="/21th_birthday/11.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/12.jpg" src_s="/21th_birthday/12.jpg" src_l="/21th_birthday/12.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/21th_birthday/13.jpg" src_s="/21th_birthday/13.jpg" src_l="/21th_birthday/13.jpg" height="50%" width="50%">
+    <img src="/21th_birthday/14.jpg" src_s="/21th_birthday/14.jpg" src_l="/21th_birthday/14.jpg" height="50%" width="50%">
+</div>]]></description>
+</item><item>
+    <title>20th_birthday</title>
+    <link>http://localhost:1313/20th_birthday/</link>
+    <pubDate>Tue, 03 Dec 2024 20:46:24 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/20th_birthday/</guid>
+    <description><![CDATA[<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/01.jpg" src_s="/20th_birthday/01.jpg" src_l="/20th_birthday/01.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/02.jpg" src_s="/20th_birthday/02.jpg" src_l="/20th_birthday/02.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/10.jpg" src_s="/20th_birthday/10.jpg" src_l="/20th_birthday/10.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/07.jpg" src_s="/20th_birthday/07.jpg" src_l="/20th_birthday/07.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/09.jpg" src_s="/20th_birthday/09.jpg" src_l="/20th_birthday/09.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/08.jpg" src_s="/20th_birthday/08.jpg" src_l="/20th_birthday/08.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/05.jpg" src_s="/20th_birthday/05.jpg" src_l="/20th_birthday/05.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/06.jpg" src_s="/20th_birthday/06.jpg" src_l="/20th_birthday/06.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/03.jpg" src_s="/20th_birthday/03.jpg" src_l="/20th_birthday/03.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/04.jpg" src_s="/20th_birthday/04.jpg" src_l="/20th_birthday/04.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/11.jpg" src_s="/20th_birthday/11.jpg" src_l="/20th_birthday/11.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/12.jpg" src_s="/20th_birthday/12.jpg" src_l="/20th_birthday/12.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/13.jpg" src_s="/20th_birthday/13.jpg" src_l="/20th_birthday/13.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/14.jpg" src_s="/20th_birthday/14.jpg" src_l="/20th_birthday/14.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/15.jpg" src_s="/20th_birthday/15.jpg" src_l="/20th_birthday/15.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/16.jpg" src_s="/20th_birthday/16.jpg" src_l="/20th_birthday/16.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/20th_birthday/17.jpg" src_s="/20th_birthday/17.jpg" src_l="/20th_birthday/17.jpg" height="50%" width="50%">
+    <img src="/20th_birthday/18.jpg" src_s="/20th_birthday/18.jpg" src_l="/20th_birthday/18.jpg" height="50%" width="50%">
+</div>]]></description>
+</item><item>
+    <title>PKU</title>
+    <link>http://localhost:1313/pku/</link>
+    <pubDate>Tue, 03 Dec 2024 20:32:09 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/pku/</guid>
+    <description><![CDATA[<div class="details admonition tip">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-lightbulb fa-fw"></i>A piece of essay (Mandarin)<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p>小时候，我对大学的唯一印象来自于江南笔下《此间的少年》。站在晨光下恍惚，偶尔会回想起那些只能偷偷看小说的日子。</p>
+<p>记忆中，下午的时光总是懒洋洋的，伴随着下课铃响起，有时会从一片喧嚣中醒来，书桌旁堆着看不完的试卷和课本。阳光照在我的头顶，窗外桑树林在风里沙沙作响，万千绿色的叶子在太阳下是半透明的，让人想起女孩娇小的手掌。</p>
+<p>那是我的十七岁，正在被一场叫做高考的比赛决定着人生，对于未来没有一份准确的时间表，甚至连一天的课表都背不下来，但我确实有很多梦想，并且相信它们会在一个叫“将来”的时间点一一实现。</p>
+<p>而后的时光有如瞬刹的流水，一去不复返..</p>
+<p>再次从喧嚣中醒来，我考上了大学，《此间》也走过了二十个年头，现实的撕裂总是疼痛的让人难以接受，我开始读懂江南在文中暗示的那些话：“其实对北大的学生而言，生存的压力有万钧之重，但这些都不是适宜入书的情节，于是自习的分量便被我大大压缩了。”原来大学里真的没有那么多的黄蓉，更没有王语嫣，甚至连穆念慈也很少见…原来北大不是汴大，世界上任何一所大学都不会是汴大，那些曾经支撑过我的理想信念，如今却成了另一块压在我心中的巨石，我确乎翻过了一些山，可山的尽头还是山，看起来永无止尽…</p>
+<p>不过即便如此，我想总有一天我也会怀念诺大的，就像我怀念那些同样无聊的小学初中高中一样，其实过滤掉生活中那些繁琐的细节，诺大确实是一个给予人遐想的地方，譬如一次从钟楼经过，雨后的水珠从湿润的草尖垂下，一旁的诺丁鸭叫个不停，风动叶动，偶尔有捧着书本的女孩从门前经过，溅起的水珠滴落在她粉色的裙摆，美得很平静。</p>
+<p>当时明月在，曾照彩云归。一切都已经是旧时光的剪影了…</p>
+<p>谨以此文，怀念那些不切实际的梦。</p>
+<p>7月26日
+于未名湖畔。</p>
+</div>
+        </div>
+    </div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/pku/04.jpg" src_s="/pku/04.jpg" src_l="/pku/04.jpg" height="50%" width="50%">
+    <img src="/pku/03.jpg" src_s="/pku/03.jpg" src_l="/pku/03.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/pku/09.jpg" src_s="/pku/09.jpg" src_l="/pku/09.jpg" height="50%" width="50%">
+    <img src="/pku/07.jpg" src_s="/pku/07.jpg" src_l="/pku/07.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/pku/05.jpg" src_s="/pku/05.jpg" src_l="/pku/05.jpg" height="50%" width="50%">
+    <img src="/pku/01.jpg" src_s="/pku/01.jpg" src_l="/pku/01.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/pku/11.jpg" src_s="/pku/11.jpg" src_l="/pku/11.jpg" height="50%" width="50%">
+    <img src="/pku/08.jpg" src_s="/pku/08.jpg" src_l="/pku/08.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/pku/02.jpg" src_s="/pku/02.jpg" src_l="/pku/02.jpg" height="50%" width="50%">
+    <img src="/pku/06.jpg" src_s="/pku/06.jpg" src_l="/pku/06.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/pku/10.jpg" src_s="/pku/10.jpg" src_l="/pku/10.jpg" height="50%" width="50%">
+    <img src="/pku/12.jpg" src_s="/pku/12.jpg" src_l="/pku/12.jpg" height="50%" width="50%">
+</div>]]></description>
+</item><item>
+    <title>Gallery</title>
+    <link>http://localhost:1313/gallery/</link>
+    <pubDate>Tue, 03 Dec 2024 15:31:33 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/gallery/</guid>
+    <description><![CDATA[<p><em><strong>I am interested in photography, here are some photos taken by me!</strong></em></p>
+<!-- | Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+ -->
+
+<div class="showcase-box column-2">
+    <div class="showcase-image">
+        <a href=http://localhost:1313/19th_birthday><img
+        
+        loading="lazy"
+        src="/19th_birthday/01.jpg"
+        srcset="/19th_birthday/01.jpg, /19th_birthday/01.jpg 1.5x, /19th_birthday/01.jpg 2x"
+        title="Stolen the 18th summer" height="200"   width="400" ></a>
+    </div>
+    <h2 class="showcase-title">
+        <a href=http://localhost:1313/19th_birthday>Stolen the 18th summer</a>
+    </h2>
+    <p class="showcase-summary">
+        Taken on my 19th birthday, as I chased the sunrise with my friends in my hometown. (2022.08.25)
+    </p>]]></description>
+</item><item>
+    <title>Publication</title>
+    <link>http://localhost:1313/publications/</link>
+    <pubDate>Tue, 03 Dec 2024 15:26:01 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/publications/</guid>
+    <description><![CDATA[JX&rsquo;s awesome publication]]></description>
+</item><item>
+    <title>Putuo_Mountain</title>
+    <link>http://localhost:1313/putuo_mountain/</link>
+    <pubDate>Mon, 02 Dec 2024 20:42:43 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/putuo_mountain/</guid>
+    <description><![CDATA[<br>
+<img src="/putuo_mountain/10.jpg" src_s="/putuo_mountain/10.jpg" src_l="/putuo_mountain/10.jpg" height="100%" width="100%">
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/putuo_mountain/04.jpg" src_s="/putuo_mountain/04.jpg" src_l="/putuo_mountain/04.jpg" height="50%" width="50%">
+    <img src="/putuo_mountain/03.jpg" src_s="/putuo_mountain/03.jpg" src_l="/putuo_mountain/03.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/putuo_mountain/09.jpg" src_s="/putuo_mountain/09.jpg" src_l="/putuo_mountain/09.jpg" height="50%" width="50%">
+    <img src="/putuo_mountain/07.jpg" src_s="/putuo_mountain/07.jpg" src_l="/putuo_mountain/07.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/putuo_mountain/05.jpg" src_s="/putuo_mountain/05.jpg" src_l="/putuo_mountain/05.jpg" height="50%" width="50%">
+    <img src="/putuo_mountain/01.jpg" src_s="/putuo_mountain/01.jpg" src_l="/putuo_mountain/01.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/putuo_mountain/11.jpg" src_s="/putuo_mountain/11.jpg" src_l="/putuo_mountain/11.jpg" height="50%" width="50%">
+    <img src="/putuo_mountain/08.jpg" src_s="/putuo_mountain/08.jpg" src_l="/putuo_mountain/08.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/putuo_mountain/02.jpg" src_s="/putuo_mountain/02.jpg" src_l="/putuo_mountain/02.jpg" height="50%" width="50%">
+    <img src="/putuo_mountain/06.jpg" src_s="/putuo_mountain/06.jpg" src_l="/putuo_mountain/06.jpg" height="50%" width="50%">
+</div>]]></description>
+</item><item>
+    <title>19th_birthday</title>
+    <link>http://localhost:1313/19th_birthday/</link>
+    <pubDate>Mon, 02 Dec 2024 13:18:22 &#43;0800</pubDate><author>
+        <name>Alan</name>
+    </author><guid>http://localhost:1313/19th_birthday/</guid>
+    <description><![CDATA[<br>
+<img src="/19th_birthday/11.jpg" src_s="/19th_birthday/11.jpg" src_l="/19th_birthday/11.jpg" height="100%" width="100%">
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/19th_birthday/01.jpg" src_s="/19th_birthday/01.jpg" src_l="/19th_birthday/01.jpg" height="50%" width="50%">
+    <img src="/19th_birthday/02.jpg" src_s="/19th_birthday/02.jpg" src_l="/19th_birthday/02.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/19th_birthday/10.jpg" src_s="/19th_birthday/10.jpg" src_l="/19th_birthday/10.jpg" height="50%" width="50%">
+    <img src="/19th_birthday/07.jpg" src_s="/19th_birthday/07.jpg" src_l="/19th_birthday/07.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/19th_birthday/09.jpg" src_s="/19th_birthday/09.jpg" src_l="/19th_birthday/09.jpg" height="50%" width="50%">
+    <img src="/19th_birthday/08.jpg" src_s="/19th_birthday/08.jpg" src_l="/19th_birthday/08.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/19th_birthday/05.jpg" src_s="/19th_birthday/05.jpg" src_l="/19th_birthday/05.jpg" height="50%" width="50%">
+    <img src="/19th_birthday/06.jpg" src_s="/19th_birthday/06.jpg" src_l="/19th_birthday/06.jpg" height="50%" width="50%">
+</div>
+<br>
+<div style="display: flex; justify-content: space-between; gap: 10px;">
+    <img src="/19th_birthday/03.jpg" src_s="/19th_birthday/03.jpg" src_l="/19th_birthday/03.jpg" height="50%" width="50%">
+    <img src="/19th_birthday/04.jpg" src_s="/19th_birthday/04.jpg" src_l="/19th_birthday/04.jpg" height="50%" width="50%">
+</div>]]></description>
+</item></channel>
 </rss>
