@@ -62,9 +62,9 @@
   Developed QRL algorithms, including Q-DDPG, Q-PPO, and Q-DQN to optimize EV charging strategies under fluctuating electricity prices and constrained grid environments.
   <br>
   <br>
-  [Manuscript](https://drive.google.com/file/d/1AXzM2qLoPIgE7jOuenLsrXIBusoE_rQZ/view?usp=sharing) | Paper and code are coming soon.~
+  [Manuscript](https://drive.google.com/file/d/1Oo1dqf5y2eUT_HYdbX0wRpx4YFCvCcOP/view?usp=sharing) | Paper and code are coming soon.~
   <br>
-  *Zheyuan Jiang, **Jianxu Shangguan**, Ziyang Wang, Tianxiang Cui*
+  *Zheyuan Jiang, **Jianxu Shangguan**, Tianxiang Cui*
   {{< /admonition >}}
 
   <div class="image-container">
