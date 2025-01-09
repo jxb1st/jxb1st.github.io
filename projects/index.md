@@ -90,9 +90,9 @@
   Developed a fully customizable AI virtual human with a complete front-end and back-end architecture.
   <br>
   <br>
-  [Handbook](https://drive.google.com/file/d/1xcNXItEambB0gJE8eTXxJW70VtxkTp1j/view?usp=sharing)
+  [Handbook](https://drive.google.com/file/d/1j16oqh41-l_DIURp7DWD2mzK31-qpV-S/view?usp=sharing)
   <br>
-  *Ziyang Wang, Bin Jia, **Jianxu Shangguan**, Eajun Yik Jun Ooi, YunXiang Shi, Jianfeng Ren*
+  *Bin Jia, **Jianxu Shangguan**, Eajun Yik Jun Ooi, YunXiang Shi, Jianfeng Ren*
   {{< /admonition >}}
 
   <div class="image-container">
