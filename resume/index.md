@@ -7,5 +7,5 @@
 
 <br>
 
-Here is my **{{< link href="https://drive.google.com/file/d/1sNDQqXD9bvVMUCilXEEnNFNz-XLKPZsi/view?usp=sharing" content=RESUME >}}** (updated on December 4, 2024), Please feel free to check it out!
+Here is my **{{< link href="https://drive.google.com/file/d/1OdXa3wGCKlwUi9Pze_u4TC36FsBqPc2n/view?usp=sharing" content=RESUME >}}** (updated on December 4, 2024), Please feel free to check it out!
 <br>
