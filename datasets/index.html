@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dataset Visualizations — Jianxu</title>
+<style>
+:root {
+  --bg: #0f1419;
+  --panel: #1a2129;
+  --border: #2d3640;
+  --text: #e6e9ed;
+  --muted: #8a949e;
+  --accent: #4dabf7;
+  --good: #51cf66;
+  --purple: #b197fc;
+  --highlight: #ffd43b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+.wrap { max-width: 1100px; margin: 0 auto; padding: 48px 24px 80px; }
+header { margin-bottom: 40px; }
+.home-link {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.home-link:hover { color: var(--accent); }
+h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.3px;
+}
+.tagline {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 700px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  transition: transform 0.12s ease, border-color 0.12s ease;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover:not(.coming-soon) {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.card-icon {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(77, 171, 247, 0.1);
+  color: var(--accent);
+  font-size: 18px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.card h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+}
+.card p {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--muted);
+  flex: 1;
+}
+.card-stats {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.card-stats strong { color: var(--text); font-weight: 600; }
+.card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  background: rgba(77, 171, 247, 0.12);
+  color: var(--accent);
+  border: 1px solid rgba(77, 171, 247, 0.25);
+}
+.tag.purple { background: rgba(177, 151, 252, 0.12); color: var(--purple); border-color: rgba(177, 151, 252, 0.25); }
+.tag.green { background: rgba(81, 207, 102, 0.12); color: var(--good); border-color: rgba(81, 207, 102, 0.25); }
+.card-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: auto;
+}
+.card-cta::after { content: "→"; transition: transform 0.12s; }
+.card:hover:not(.coming-soon) .card-cta::after { transform: translateX(3px); }
+.card.coming-soon {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.card.coming-soon .card-cta { color: var(--muted); }
+.card.coming-soon .card-cta::after { content: ""; }
+.soon-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  background: var(--bg);
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+footer a { color: var(--accent); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="../" class="home-link">← Back to home</a>
+    <h1>Dataset Visualizations</h1>
+    <p class="tagline">
+      Case-by-case browsers for multimodal / video-understanding benchmarks.
+      Each viewer ships with a representative subset so it stays hostable on GitHub Pages;
+      links to the official source are in the footer of every viewer.
+    </p>
+  </header>
+
+  <section class="grid">
+
+    <a class="card" href="https://jxb1st.github.io/streamingbench-viewer/">
+      <div class="card-head">
+        <span class="card-icon">SB</span>
+        <h2>StreamingBench</h2>
+      </div>
+      <p>
+        MLLM streaming video understanding benchmark. Four tasks: Real-Time Visual Understanding,
+        Omni-Source Understanding, Sequential QA, and Proactive Output.
+      </p>
+      <div class="card-stats">
+        <span><strong>900</strong> videos total</span>
+        <span><strong>4,500</strong> QA pairs</span>
+        <span><strong>45</strong> in viewer</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag">video</span>
+        <span class="tag purple">streaming</span>
+        <span class="tag green">MCQ + open</span>
+      </div>
+      <span class="card-cta">Open viewer</span>
+    </a>
+
+    <div class="card coming-soon">
+      <span class="soon-badge">Soon</span>
+      <div class="card-head">
+        <span class="card-icon" style="background:rgba(177,151,252,0.1);color:var(--purple);">OM</span>
+        <h2>OmniMMI</h2>
+      </div>
+      <p>
+        Omni-modal interactive benchmark. Tests multi-turn audio-visual interaction across
+        streaming video dialog.
+      </p>
+      <div class="card-stats">
+        <span>Being prepared</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag">video</span>
+        <span class="tag purple">audio</span>
+        <span class="tag green">multi-turn</span>
+      </div>
+      <span class="card-cta">Coming soon</span>
+    </div>
+
+  </section>
+
+  <footer>
+    <span>Built with plain HTML + JS. Each viewer is a single-file page.</span>
+    <span><a href="https://github.com/jxb1st">GitHub</a></span>
+  </footer>
+</div>
+</body>
+</html>
