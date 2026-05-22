@@ -190,25 +190,26 @@ footer a:hover { text-decoration: underline; }
 
     <a class="card" href="https://jxb1st.github.io/proactive-video-benchmark-viewer/">
       <div class="card-head">
-        <span class="card-icon" style="background:rgba(38,198,218,0.12);color:#26c6da;">PV</span>
-        <h2>Proactive Video Benchmark</h2>
+        <span class="card-icon" style="background:rgba(38,198,218,0.12);color:#26c6da;">SA</span>
+        <h2>Streaming Visual Assistant Benchmark</h2>
       </div>
       <p>
-        New proactive streaming-video benchmark — 12 SQ cells (single question
-        × multiple GT responses, organized as trigger pattern × response
-        complexity) + 16 MQ cells (interrelated questions, logical × temporal
-        relationship). For each cell on each video, Gemini 2.5 Pro proposes a
-        question and a complete ground-truth response stream (trigger
-        timestamps + canonical response texts).
+        Situated question benchmark for a smart-glasses AI assistant — 10 task
+        types in 3 families: Proactive monitoring (event detection, interval
+        tracking, threshold alerts), Reactive Q&amp;A (localization, recall,
+        diagnosis &amp; guidance, verification), and Interaction dynamics
+        (concurrent tracking, instruction update, causal chains). Gemini 2.5
+        Pro role-plays the person in each egocentric video and writes the
+        questions they would naturally ask.
       </p>
       <div class="card-stats">
-        <span><strong>28</strong> task cells</span>
-        <span><strong>168</strong> samples</span>
-        <span><strong>951</strong> GT entries</span>
+        <span><strong>10</strong> task types</span>
+        <span><strong>6</strong> videos</span>
+        <span><strong>82</strong> questions</span>
       </div>
       <div class="card-tags">
         <span class="tag">video</span>
-        <span class="tag purple">proactive</span>
+        <span class="tag purple">proactive + reactive</span>
         <span class="tag green">Gemini 2.5 Pro</span>
       </div>
       <span class="card-cta">Open viewer</span>
