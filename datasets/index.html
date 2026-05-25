@@ -194,18 +194,22 @@ footer a:hover { text-decoration: underline; }
         <h2>Streaming Visual Assistant Benchmark</h2>
       </div>
       <p>
-        Situated question benchmark for a smart-glasses AI assistant — 10 task
-        types in 3 families: Proactive monitoring (event detection, interval
-        tracking, threshold alerts), Reactive Q&amp;A (localization, recall,
-        diagnosis &amp; guidance, verification), and Interaction dynamics
-        (concurrent tracking, instruction update, causal chains). Gemini 2.5
-        Pro role-plays the person in each egocentric video and writes the
-        questions they would naturally ask.
+        Situated question + answer benchmark for a smart-glasses AI assistant.
+        10 task types in 3 families: Proactive monitoring (event detection,
+        interval tracking, threshold alerts), Reactive Q&amp;A (localization,
+        recall, diagnosis &amp; guidance, verification), and Interaction
+        dynamics (concurrent tracking, instruction update, causal chains).
+        Gemini 2.5 Pro first role-plays the person to write the questions they
+        would ask, then role-plays the AI assistant to emit the spoken
+        responses — `(response_time, response_text)` lists for proactive
+        instructions, single answers for reactive questions, with an honest
+        can't-answer escape hatch.
       </p>
       <div class="card-stats">
         <span><strong>10</strong> task types</span>
         <span><strong>6</strong> videos</span>
         <span><strong>82</strong> questions</span>
+        <span><strong>v3a</strong> answers</span>
       </div>
       <div class="card-tags">
         <span class="tag">video</span>
