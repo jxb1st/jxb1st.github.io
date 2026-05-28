@@ -195,21 +195,23 @@ footer a:hover { text-decoration: underline; }
       </div>
       <p>
         Situated question + answer benchmark for a smart-glasses AI assistant.
-        10 task types in 3 families: Proactive monitoring (event detection,
-        interval tracking, threshold alerts), Reactive Q&amp;A (localization,
-        recall, diagnosis &amp; guidance, verification), and Interaction
-        dynamics (concurrent tracking, instruction update, causal chains).
-        Gemini 2.5 Pro first role-plays the person to write the questions they
-        would ask, then role-plays the AI assistant to emit the spoken
-        responses — `(response_time, response_text)` lists for proactive
-        instructions, single answers for reactive questions, with an honest
-        can't-answer escape hatch.
+        11 task types in 3 families: Proactive monitoring (event detection
+        with repeating or first-occurrence trigger, interval tracking,
+        threshold alerts), Reactive Q&amp;A (localization with both
+        past-placement &amp; forward search, recall including temporal
+        "when?", diagnosis &amp; guidance, verification, and cross-time
+        comparison), and Interaction dynamics (concurrent tracking,
+        instruction update, causal chains). Gemini 2.5 Pro first role-plays
+        the person to write the questions they would ask, then role-plays
+        the AI assistant to emit the spoken responses — `(response_time,
+        response_text)` lists for proactive instructions, single answers
+        for reactive questions, with an honest can't-answer escape hatch.
       </p>
       <div class="card-stats">
-        <span><strong>10</strong> task types</span>
+        <span><strong>11</strong> task types</span>
         <span><strong>6</strong> videos</span>
-        <span><strong>82</strong> questions</span>
-        <span><strong>v3a</strong> answers</span>
+        <span><strong>v4</strong> questions</span>
+        <span><strong>v4a</strong> answers</span>
       </div>
       <div class="card-tags">
         <span class="tag">video</span>
