@@ -188,6 +188,38 @@ footer a:hover { text-decoration: underline; }
 
   <section class="grid">
 
+    <a class="card" href="https://jxb1st.github.io/persona-streaming-v3/">
+      <div class="card-head">
+        <span class="card-icon" style="background:rgba(18,161,80,0.12);color:#12a150;">P3</span>
+        <h2>Persona-Streaming v3 — Anti-Poison Synthetic Interventions</h2>
+      </div>
+      <p>
+        The successor to the Persona MVP, now on real <b>CaptainCook4D</b> egocentric cooking
+        video. It fixes the MVP's core limitation — synthetic errors that contradict what the
+        frames show — with an <b>anti-poison gate</b>: every error class is tagged visually
+        <i>indetectable</i> (measurement / timing / temperature — frames are silent on them) or
+        <i>detectable</i> (technique / order / missing-steps — frames show them); a detectable
+        error may only be synthesized when <b>anchored to a real labeled mistake</b> at that step,
+        otherwise it is downgraded — <b>guaranteeing 0 poison samples</b>. Personas are built
+        <b>Sparse-to-Rich</b> (seed → expand → <b>NLI self-consistency</b> repair via DeBERTa-v3);
+        a seeded code-side gate (never the LLM) decides clean vs which feasible error. Browse every
+        sample with its gate branch, real anchor, persona, and the exact Gemini prompts, inline
+        with the source video.
+      </p>
+      <div class="card-stats">
+        <span><strong>10</strong> videos</span>
+        <span><strong>45</strong> personas</span>
+        <span><strong>544</strong> samples</span>
+        <span><strong>0</strong> poison</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag">video</span>
+        <span class="tag purple">persona-driven</span>
+        <span class="tag green">anti-poison + NLI</span>
+      </div>
+      <span class="card-cta">Open viewer</span>
+    </a>
+
     <a class="card" href="https://jxb1st.github.io/wearable-cooking-viewer/">
       <div class="card-head">
         <span class="card-icon" style="background:rgba(68,147,248,0.12);color:#4493f8;">WC</span>
