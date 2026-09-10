@@ -188,6 +188,35 @@ footer a:hover { text-decoration: underline; }
 
   <section class="grid">
 
+    <a class="card" href="https://jxb1st.github.io/interaction-episodes-viewer/">
+      <div class="card-head">
+        <span class="card-icon" style="background:rgba(26,111,212,0.12);color:#1a6fd4;">IE</span>
+        <h2>Video Interaction Episodes &mdash; Transcript &rarr; Speakers &rarr; Episodes</h2>
+      </div>
+      <p>
+        Three-stage conversation mining pipeline demonstrated on two YouTube videos
+        (a <b>tennis serve lesson</b> and an <b>IELTS speaking test</b>).
+        <b>Stage 1</b>: timestamped transcripts, YouTube captions vs forced ASR
+        (<b>faster-whisper large-v3</b>). <b>Stage 2</b>: speaker attribution and turn
+        reconstruction (<b>pyannote community-1</b> diarization, conservative word-level
+        assignment, filler cleanup). <b>Stage 3</b>: semantic interaction grouping —
+        <b>Gemini 2.5 Pro</b> proposes contiguous episode ranges under a JSON schema and the
+        program validates the partition (candidate / review / skip, visual-context flags).
+      </p>
+      <div class="card-stats">
+        <span><strong>2</strong> videos</span>
+        <span><strong>3</strong> stages</span>
+        <span><strong>114</strong> speaker turns</span>
+        <span><strong>19</strong> episodes</span>
+      </div>
+      <div class="card-tags">
+        <span class="tag">video</span>
+        <span class="tag purple">ASR + diarization</span>
+        <span class="tag green">LLM grouping</span>
+      </div>
+      <span class="card-cta">Open viewer</span>
+    </a>
+
     <a class="card" href="https://jxb1st.github.io/etri-cctv-viewer/">
       <div class="card-head">
         <span class="card-icon" style="background:rgba(188,74,46,0.12);color:#bc4a2e;">EC</span>
