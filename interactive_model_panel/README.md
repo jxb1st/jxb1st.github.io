@@ -20,9 +20,6 @@ interactive_model_panel/
         └── assets/            # that experiment's figures, clips, small JSON files
 ```
 
-`experiments/demo-template/` is demo content. It is flagged `"demo": true` in the manifest and shows
-a "Demo" badge. Delete the folder and its manifest entry when the first real experiment is added.
-
 ## `experiments.json` schema
 
 A JSON array. One object per experiment:
@@ -39,7 +36,7 @@ A JSON array. One object per experiment:
 | `tags` | no | array of short strings |
 | `accent` | no | integer 1–6 to pick the icon color; otherwise derived from the slug |
 | `url` | no | overrides the link target, for an experiment hosted elsewhere |
-| `demo` | no | `true` adds a "Demo" badge |
+| `demo` | no | `true` adds a "Demo" badge, for placeholder entries |
 
 Entries missing `slug` or `title` are skipped with a console warning. Cards are sorted newest first.
 
@@ -48,8 +45,8 @@ Entries missing `slug` or `title` are skipped with a console warning. Cards are 
 1. Pick a slug (lowercase, hyphens, no leading underscore): `turn-taking-eval`.
 2. Append an object to `experiments.json`. Keep the file valid JSON (`python3 -m json.tool experiments.json`).
 3. Create `experiments/turn-taking-eval/` and copy `experiment-template.html` to `index.html` inside it.
-4. Fill in the sections you need and delete the rest. Section order and component markup are shown in
-   `experiments/demo-template/index.html` (prompt blocks, result tables, figures, videos, side-by-side comparisons, case cards).
+4. Fill in the sections you need and delete the rest. The template already contains skeleton markup for every
+   component (prompt blocks, result tables, figures, videos, side-by-side comparisons, case cards, expandable text).
 5. Put that experiment's media in `experiments/turn-taking-eval/assets/` and reference it as `assets/...`.
 
 Paths inside an experiment page are relative: `../../style.css`, `../../script.js`, back link `../../`.
