@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "demo-template",
+    "title": "Demo Experiment — Page Template Showcase",
+    "short_name": "DM",
+    "date": "2026-10-04",
+    "status": "planned",
+    "demo": true,
+    "summary": "Placeholder entry that exercises every component of the experiment page template: prompts, result tables, figures, video demos, side-by-side model comparisons, and case cards. Contains no real results. Delete this entry and experiments/demo-template/ once a real experiment exists.",
+    "stats": ["15 sections", "0 real results", "1 template"],
+    "tags": ["demo", "template"]
+  }
+]

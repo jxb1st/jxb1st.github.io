@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo Experiment — Interactive Model Experiments</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="exp-header">
+    <a href="../../" class="back-link">← Back to Interactive Model Experiments</a>
+    <div class="exp-title-row">
+      <span class="card-icon c2">DM</span>
+      <div>
+        <h1>Demo Experiment — Page Template Showcase</h1>
+        <div class="exp-meta">
+          <time datetime="2026-10-04">Oct 4, 2026</time>
+          <span class="status planned">planned</span>
+          <span class="tag">demo</span>
+          <span class="tag">template</span>
+        </div>
+      </div>
+    </div>
+    <p class="exp-summary">
+      Placeholder entry that exercises every component of the experiment page template. Every number,
+      prompt, and model output on this page is illustrative filler, not a measured result. Delete this
+      folder and its entry in <code>experiments.json</code> once a real experiment exists.
+    </p>
+  </header>
+
+  <div class="callout warn">
+    <strong>Demo content.</strong> This page exists only to show how the template renders. Model names,
+    values, and outputs below are invented placeholders.
+  </div>
+
+  <nav class="exp-toc" data-toc aria-label="Sections"></nav>
+
+  <section class="exp-section"><h2 id="overview">Overview</h2>
+    <p>
+      Use the overview for two or three sentences a reader needs before anything else: what was run,
+      on what data, and the one-line takeaway. Keep the detailed narrative for the later sections.
+    </p>
+  </section>
+
+  <section class="exp-section"><h2 id="research-question">Research Question</h2>
+    <p>State the question as a question. Example placeholder: <em>Can an interactive video model
+      decide when to respond, and which evidence does it use?</em></p>
+  </section>
+
+  <section class="exp-section"><h2 id="setup">Experimental Setup</h2>
+    <dl class="facts">
+      <dt>Models</dt><dd>Model A (placeholder), Model B (placeholder)</dd>
+      <dt>Data</dt><dd>N videos from a named source, with a note on any subset selection</dd>
+      <dt>Prompts</dt><dd>K prompt variants, listed in the Prompts section</dd>
+      <dt>Hardware</dt><dd>GPU type, count, precision, decoding settings</dd>
+      <dt>Metrics</dt><dd>What is measured and how it is scored</dd>
+    </dl>
+  </section>
+
+  <section class="exp-section"><h2 id="method">Method / Pipeline</h2>
+    <ol class="pipeline">
+      <li>Sample frames</li><li>Build prompt</li><li>Run model</li><li>Parse output</li><li>Score</li>
+    </ol>
+    <p>A short paragraph describing each stage, or a figure of the pipeline, goes here.</p>
+  </section>
+
+  <section class="exp-section"><h2 id="prompts">Prompts</h2>
+    <div class="prompt system">
+      <div class="prompt-head">System prompt <span class="prompt-note">shared by all variants</span></div>
+      <pre class="prompt-body">You are a careful assistant. Describe only what the frames support.
+Do not invent speech, sounds, intentions, or unseen events.</pre>
+    </div>
+    <div class="prompt user">
+      <div class="prompt-head">User prompt <span class="prompt-note">variant 1 of 2</span></div>
+      <pre class="prompt-body">Describe this video in one or two concise English sentences. Return only the caption.</pre>
+    </div>
+    <div class="prompt variant">
+      <div class="prompt-head">Prompt variant <span class="prompt-note">variant 2 of 2</span></div>
+      <details>
+        <summary>Show full prompt (long prompts can be collapsed like this)</summary>
+        <pre class="prompt-body">Write a detailed English caption of this video in one coherent paragraph,
+usually four to six sentences. Describe the visible scene, subjects, objects,
+and important actions or changes in chronological order. Mention interactions
+and outcomes only when visible. Use fewer sentences when little happens.
+Return only the caption.</pre>
+      </details>
+    </div>
+    <div class="prompt response">
+      <div class="prompt-head">Model response <span class="prompt-note">placeholder output</span></div>
+      <pre class="prompt-body">A placeholder caption that stands in for a real model response.</pre>
+    </div>
+  </section>
+
+  <section class="exp-section"><h2 id="results">Quantitative Results</h2>
+    <div class="table-wrap">
+      <table class="results">
+        <thead>
+          <tr><th>Model</th><th>Prompt</th><th class="num">Metric 1</th><th class="num">Metric 2</th><th class="num">Latency (s)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Model A</td><td>variant 1</td><td class="num">0.00</td><td class="num">0.00</td><td class="num">0.0</td></tr>
+          <tr class="highlight"><td>Model A</td><td>variant 2</td><td class="num best">0.00</td><td class="num">0.00</td><td class="num">0.0</td></tr>
+          <tr><td>Model B</td><td>variant 1</td><td class="num">0.00</td><td class="num best">0.00</td><td class="num">0.0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">Example layout only. Mark the best value per column with <code>class="best"</code> and an emphasized row with <code>class="highlight"</code>.</p>
+    <pre class="code" data-lang="json">{
+  "model": "Model A",
+  "prompt": "variant 2",
+  "metric_1": 0.0,
+  "metric_2": 0.0
+}</pre>
+  </section>
+
+  <section class="exp-section"><h2 id="visualizations">Visualizations</h2>
+    <figure class="fig narrow">
+      <svg viewBox="0 0 400 220" role="img" aria-label="Placeholder bar chart with three bars of equal height">
+        <rect width="400" height="220" fill="#141b22"/>
+        <line x1="40" y1="180" x2="380" y2="180" stroke="#2d3640"/>
+        <line x1="40" y1="20" x2="40" y2="180" stroke="#2d3640"/>
+        <rect x="80" y="100" width="60" height="80" fill="#4dabf7" opacity="0.85"/>
+        <rect x="180" y="100" width="60" height="80" fill="#b197fc" opacity="0.85"/>
+        <rect x="280" y="100" width="60" height="80" fill="#51cf66" opacity="0.85"/>
+        <text x="110" y="200" fill="#8a949e" font-size="12" text-anchor="middle">A</text>
+        <text x="210" y="200" fill="#8a949e" font-size="12" text-anchor="middle">B</text>
+        <text x="310" y="200" fill="#8a949e" font-size="12" text-anchor="middle">C</text>
+        <text x="30" y="104" fill="#8a949e" font-size="11" text-anchor="end">0.5</text>
+        <text x="30" y="184" fill="#8a949e" font-size="11" text-anchor="end">0</text>
+      </svg>
+      <figcaption>Placeholder plot drawn inline as SVG.<span class="fig-desc">Real plots are usually exported as PNG or SVG into this experiment's <code>assets/</code> folder.</span></figcaption>
+    </figure>
+    <figure class="fig narrow">
+      <img src="assets/demo-frame.png" alt="FFmpeg test pattern used as a placeholder image" width="640" height="360">
+      <figcaption>Placeholder image (FFmpeg test pattern).<span class="fig-desc">Images get a caption plus an optional description line.</span></figcaption>
+    </figure>
+  </section>
+
+  <section class="exp-section"><h2 id="demos">Video / Image Demos</h2>
+    <div class="media-grid">
+      <figure class="fig">
+        <video controls preload="metadata" src="assets/demo.mp4" width="320" height="180"></video>
+        <figcaption>Placeholder video (3 s FFmpeg test pattern).<span class="fig-desc">Use compressed clips; keep each under a few MB.</span></figcaption>
+      </figure>
+      <figure class="fig">
+        <video controls preload="metadata" src="assets/demo.mp4" width="320" height="180"></video>
+        <figcaption>Second placeholder.<span class="fig-desc">The grid wraps to one column on narrow screens.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="exp-section"><h2 id="qualitative">Qualitative Examples</h2>
+    <div class="compare">
+      <div class="compare-head">Example 1 — placeholder clip</div>
+      <div class="compare-input">
+        <span class="label">Input / Video</span>
+        <video controls preload="metadata" src="assets/demo.mp4" width="320" height="180"></video>
+      </div>
+      <div class="compare-grid">
+        <div class="compare-cell">
+          <span class="label">Model A <span class="verdict partial">partial</span></span>
+          <div class="model-name">Model A (placeholder)</div>
+          A placeholder output standing in for what Model A would produce.
+        </div>
+        <div class="compare-cell">
+          <span class="label">Model B <span class="verdict ok">correct</span></span>
+          <div class="model-name">Model B (placeholder)</div>
+          A placeholder output standing in for what Model B would produce.
+        </div>
+        <div class="compare-cell reference">
+          <span class="label">Ground truth / Reference</span>
+          The reference answer or annotation for this input.
+        </div>
+      </div>
+      <div class="compare-obs">
+        <span class="label">Observation</span>
+        One or two sentences on how the outputs differ and why it matters.
+      </div>
+    </div>
+  </section>
+
+  <section class="exp-section"><h2 id="success">Success Cases</h2>
+    <div class="cases">
+      <div class="case success">
+        <div class="case-title">Case title</div>
+        <p>What the model got right and which evidence it used.</p>
+        <div class="output">placeholder model output</div>
+      </div>
+      <div class="case success">
+        <div class="case-title">Another case</div>
+        <p>Cases wrap into a grid and collapse to one column on phones.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="exp-section"><h2 id="failure">Failure Cases</h2>
+    <div class="cases">
+      <div class="case failure">
+        <div class="case-title">Case title</div>
+        <p>What went wrong, with the exact output.</p>
+        <div class="output">placeholder model output</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="exp-section"><h2 id="observations">Observations</h2>
+    <ul>
+      <li>Bullet observations, one idea each.</li>
+      <li>Keep interpretation separate from measurement.</li>
+    </ul>
+    <details class="expand">
+      <summary>Expandable long text</summary>
+      <div class="expand-body">
+        <p>Use this for long transcripts, full reasoning traces, or extended notes that would otherwise bury the page.</p>
+      </div>
+    </details>
+  </section>
+
+  <section class="exp-section"><h2 id="conclusion">Conclusion</h2>
+    <p>Answer the research question directly, in two or three sentences.</p>
+  </section>
+
+  <section class="exp-section"><h2 id="next-steps">Next Steps</h2>
+    <ul><li>Concrete follow-up experiments.</li></ul>
+  </section>
+
+  <section class="exp-section"><h2 id="reproduction">Reproduction</h2>
+    <dl class="facts">
+      <dt>Code</dt><dd>Link to the repository or script</dd>
+      <dt>Environment</dt><dd>Package versions that produced the results</dd>
+    </dl>
+    <pre class="code" data-lang="bash">python run_experiment.py --config config.json</pre>
+  </section>
+
+  <footer class="page-footer">
+    <span><a href="../../">← Back to Interactive Model Experiments</a></span>
+    <span><a href="../../../">Home</a></span>
+  </footer>
+</div>
+<script src="../../script.js"></script>
+</body>
+</html>
